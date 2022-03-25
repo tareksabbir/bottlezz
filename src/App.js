@@ -1,8 +1,10 @@
 import './App.css';
+import Header from './Components/Header/Header';
 function App() {
   return (
-    <div className="App">
-      <h1 className='text-primary'> Site is running@!</h1>
+    <div>
+      <Header></Header>
+
     </div>
   );
 }
