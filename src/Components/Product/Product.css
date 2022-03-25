@@ -1,0 +1,24 @@
+.product{
+    background-color:rgb(236, 239, 241);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.product img{
+    width: 290px;
+    height: 290px;
+}
+.product-info{
+    padding: .5rem;
+
+}
+.product button{
+    width: 100%;
+    background-image: linear-gradient(to right bottom, rgb(244, 114, 182), rgb(219, 39, 119)); 
+    border: none;
+    border-radius: 1rem;
+    padding: .5rem;  
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
