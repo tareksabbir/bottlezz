@@ -1,6 +1,6 @@
 .shop-container{
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1.3fr 3.5fr;
 }
 .product-grid{
     display: grid;
@@ -15,8 +15,8 @@
 
 .cart-position{
     text-align: center;
-    margin-top: 8rem;
-    margin-left: 2rem;
+    margin-top: 6rem;
+    padding: 2rem;
    
 }
 @media screen and (max-width:540px){
