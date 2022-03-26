@@ -18,11 +18,17 @@ const Shop = () => {
         setCart(newCart);
 
     }
+    const handleAddToCartEventClear = () => {
+        setCart([]);
+    }
+
 
     return (
         <div className='shop-container'>
             <div className='cart-position '>
-                <Cart cart={cart}></Cart>
+                <Cart cart={cart}
+                    handleAddToCartEventClear={handleAddToCartEventClear}
+                ></Cart>
             </div>
 
             <div className='product-grid'>

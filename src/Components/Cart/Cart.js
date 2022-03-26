@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Cart.css'
 
-const Cart = ({ cart }) => {
+const Cart = ({ cart, handleAddToCartEventClear }) => {
     const [carts, setCarts] = useState([])
     console.log(carts);
     const randomItem = (cart) => {
@@ -28,7 +28,7 @@ const Cart = ({ cart }) => {
                 randomItem(cart);
             }}>Choose One</button>
             <br />
-            <button id='clear-data' onClick={() => window.location.reload(false)}>Choose Again</button>
+            <button id='clear-data' onClick={() => handleAddToCartEventClear(cart)}>Choose Again</button>
         </div>
     );
 };
