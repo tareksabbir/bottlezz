@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Cart.css'
 
-const Cart = ({ cart }) => {
 
+const Cart = ({ cart }) => {
+    const [carts, setCarts] = useState([])
+    console.log(carts);
+    const randomItem = (cart) => {
+        const showRandomItem = [...cart]
+        const randomIndex = Math.floor(Math.random() * showRandomItem.length);
+        const items = showRandomItem[randomIndex];
+        setCarts(items)
+    }
 
 
     return (
@@ -14,13 +22,19 @@ const Cart = ({ cart }) => {
                         <img id='view-cart-img' src={item.img} alt="" />
                         <p>{item.name} ${item.price}</p>
                     </div>
+                ))
 
-                ))}
+            }
+            <h5>Choose This One</h5>
+            <p>{carts.name} price: ${carts.price}</p>
 
-            <button id='random-pic'>Choose One</button>
+
+            <button id='random-pic' onClick={() => {
+                randomItem(cart);
+
+            }}>Choose One</button>
             <br />
-            <button id='clear-data'>Choose Again</button>
-
+            <button id='clear-data' onClick={() => window.location.reload(false)}>Choose Again</button>
         </div>
     );
 };

@@ -21,6 +21,10 @@ const Shop = () => {
 
     return (
         <div className='shop-container'>
+            <div className='cart-position '>
+                <Cart cart={cart}></Cart>
+            </div>
+
             <div className='product-grid'>
                 {
                     products.map(product => <Product
@@ -31,9 +35,8 @@ const Shop = () => {
                     ></Product>)
                 }
             </div>
-            <div className='cart-position'>
-                <Cart cart={cart}></Cart>
-            </div>
+
+
 
         </div>
     );
