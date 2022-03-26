@@ -21,4 +21,10 @@
     padding: .5rem;  
     color: white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items: center;
+    font-weight: 500;
 }

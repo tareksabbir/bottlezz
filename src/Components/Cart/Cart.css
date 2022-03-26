@@ -1,0 +1,38 @@
+
+.cart-view{
+    background-color: rgb(236, 239, 241);
+    height: 75vh; 
+    border-radius: 2rem;
+}
+
+.cart-view h5{
+    text-align: center;
+    padding-top: 80px;
+}
+
+#random-pic{
+    border: none;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: white;
+    background-image: linear-gradient(to right bottom, rgb(244, 114, 182), rgb(219, 39, 119)); 
+    padding: 8px 30px;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+#clear-data{
+    border: none;
+    text-align: center;
+    color: white;
+    background-color: rgb(3, 28, 48);
+    padding: 8px 30px;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#view-cart-img{
+    width: 30px;
+    height: 30px;
+}
