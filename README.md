@@ -1,4 +1,4 @@
-# Project Live Link
+# Bottlezz Project Live Link
 
-Here is the project live link: [Click Here](https://github.com/facebook/create-react-app).
+Here is the project live link: [Click Here](https://bottlezzz.netlify.app).
 
