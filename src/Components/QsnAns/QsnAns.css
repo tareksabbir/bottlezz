@@ -1,0 +1,23 @@
+.grid-make{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:3rem;
+    margin-top: 6rem;
+    padding: 2rem;
+}
+.grid-make h5{
+    color:rgb(219, 39, 119) ;
+}
+
+.grid-design{
+   padding: 3rem;
+   background-color: rgb(236, 239, 241);
+   border-radius: 1rem;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+@media screen and (max-width:680px){
+    .grid-make{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

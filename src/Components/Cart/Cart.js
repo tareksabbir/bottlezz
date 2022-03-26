@@ -3,6 +3,7 @@ import './Cart.css'
 
 
 const Cart = ({ cart }) => {
+
     const [carts, setCarts] = useState([])
     console.log(carts);
     const randomItem = (cart) => {
