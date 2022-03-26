@@ -8,8 +8,6 @@ function App() {
       <Header></Header>
       <QsnAns></QsnAns>
       <Shop></Shop>
-
-
     </div>
   );
 }
